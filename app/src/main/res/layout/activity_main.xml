@@ -18,7 +18,7 @@
         <LinearLayout
             android:id="@+id/email_login_form"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <android.support.design.widget.TextInputLayout
@@ -30,7 +30,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/nome"
-                    android:inputType="textEmailAddress"
+                    android:inputType="textPersonName"
                     android:maxLines="1"
                     android:singleLine="true" />
 
@@ -55,32 +55,32 @@
             </android.support.design.widget.TextInputLayout>
 
             <Button
-                android:id="@+id/add_amigo"
+                android:id="@+id/btnAddAmigo"
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="@string/add_amigo"
-                android:onClick="adcionarAmigo"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/sortiar"
+                android:id="@+id/btnSortear"
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:onClick="enviaNome"
-                android:text="@string/sortiar"
+                android:text="@string/sortear"
                 android:textStyle="bold" />
 
             <ListView
                 android:id="@+id/listaAmigos"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="300dp">
 
             </ListView>
 
         </LinearLayout>
+
     </ScrollView>
+
 </LinearLayout>

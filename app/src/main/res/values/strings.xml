@@ -7,7 +7,7 @@
     <string name="nome">Nome</string>
     <string name="telefone">Telefone</string>
     <string name="add_amigo">Adcionar Amigo</string>
-    <string name="sortiar">Sortiar</string>
+    <string name="sortear">Sortear</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
